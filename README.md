@@ -37,21 +37,34 @@ Make sure you have the following installed:
 ---
 ## Folder Structure 
 JobListing/
+
 ├── backend/
+
 │   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── .env
-│   └── index.js
+
+│      ├── models/
+
+│      ├── routes/
+
+│      ├── .env
+
+│      └── index.js
+
 ├── frontend/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       └── App.jsx
+
+│        └── src/
+
+│                ├── components/
+
+│                ├── pages/
+
+│                └── App.jsx
+
 └── README.md
 
 ## ENV Variables
 PORT=5000
+
 MONGO_URI=your_mongodb_connection_string
 CLIENT_URL = http://localhost:5173
 
