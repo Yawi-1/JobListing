@@ -1,16 +1,21 @@
 # 🧑‍💼 Job Listing App
 
-This is a full-stack Job Listing web application built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js). It allows users to search for jobs based on location and lets companies post job listings with logos/images.
+This is a full-stack Job Listing web application built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js). 
 
+
+## Deployed Links
+Frontend : https://joblisting11.netlify.app/
+Backend : https://joblisting-tle0.onrender.com/api/jobs
 ---
 
 ## ✨ Features
 
 - 🔍 Job search based on location
-- 🖼️ Upload company logos/images with listings
+- 🖼️ Company logos/images with listings
+- ⚙️ Mongo Db Connection 
 - ⚙️ RESTful API integration
 
----
+
 
 ## 🛠️ Tech Stack
 
