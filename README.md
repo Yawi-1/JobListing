@@ -53,6 +53,7 @@ JobListing/
 ## ENV Variables
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
+CLIENT_URL = http://localhost:5173
 
 
 ### 📁 Clone the Repository

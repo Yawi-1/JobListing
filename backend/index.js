@@ -5,10 +5,11 @@ const jobRoutes = require("./routes/job.routes");
 const cors = require("cors");
 dotenv.config();
 const app = express();
-
+const port = process.env.PORT || 8000;
 
 app.use(cors({
-  origin: 'http://localhost:5173', 
+  origin: process.env.CLIENT_URL,
+  methods: ["GET"], 
   credentials: true, 
 }));
 app.use(express.json());
@@ -19,7 +20,7 @@ app.get("/", (req, res) => {
   res.send("Hello from Express!");
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   connectDb();
-  console.log("Server is running on port 3000");
+  console.log(`Server is running on port ${port}`);
 });
